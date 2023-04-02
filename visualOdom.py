@@ -32,7 +32,7 @@ for flow, mask in zip(flow_npy, mask_npy):
     t += np.array([fx, fy, 0], dtype=np.float32)
 
     # Convert the cumulative rotation quaternion and translation vector to a transformation matrix
-    mat = np.eye(4, dtype=np.float32)
+    mat = np.eye(4, dtype=np.float32) 
     mat[:3, :3] = Rotation.from_quat(q).as_matrix()
     mat[:3, 3] = t
 
