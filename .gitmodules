@@ -1,6 +1,0 @@
-[submodule "opencv"]
-	path = opencv
-	url = https://github.com/opencv/opencv.git
-[submodule "ORB_SLAM3_proj"]
-	path = ORB_SLAM3_proj
-	url = https://github.com/UZ-SLAMLab/ORB_SLAM3.git
