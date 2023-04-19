@@ -36,3 +36,4 @@ For the initial 3D trajectory estimation, ORB-SLAM3 is performed on the dataset 
 
 ![](./images/ORB-SLAM3.png)
 
+#### 3. Pipeline
