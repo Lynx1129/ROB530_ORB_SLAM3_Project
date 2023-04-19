@@ -26,4 +26,8 @@ Please find the introduction video to our project [here](https://www.youtube.com
 #### 1. TartanAir Dataset
 ![](tartanair.png)
 
+In 'Localization of TartanAir Dataset using ORB-SLAM3 and GTSAM', the main dataset used for the 3D trajectory generation is the abandoned factory P0001 sequence of TartanAir. The downloaded TAR file provides the trajectory with stereo images, left and right depth as well as flow data along the frames for robot navigation tasks taken through a quadcopter drone with the camera intrinsics as mentioned below:
+
+![](camera_intrinsics.PNG)
+
 
