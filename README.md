@@ -30,4 +30,8 @@ In 'Localization of TartanAir Dataset using ORB-SLAM3 and GTSAM', the main datas
 
 ![](camera_intrinsics.PNG)
 
+#### 2. ORB-SLAM3
+
+For the initial 3D trajectory estimation, ORB-SLAM3 is performed on the dataset using the stereo images. As the sequence of image is passed, a real-time execution of visual, visual-inertial and multi-map SLAM takes place which generates the multi-map system and provides the corresponding poses to be used for optimization through smoothing with GTSAM
+
 
