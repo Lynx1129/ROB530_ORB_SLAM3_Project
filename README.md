@@ -39,4 +39,5 @@ For the initial 3D trajectory estimation, ORB-SLAM3 is performed on the dataset 
 #### 3. Pipeline showing Visual Odometry with Optical Flow
 
 For factor-graph optimization using GTSAM, the estimated poses from ORB-SLAM3 are paired with visual odometry generated using optical flow data and depth maps (in some versions) to produce the final localization trajectory.
+
 ![](./images/Pipeline.png)
