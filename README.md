@@ -17,7 +17,9 @@ This is the repository for WN23 ROB 530 Team 10's Final Project.  In this projec
   
 ## Background
 
-This project focuses on the use of ORB-SLAM3 and factor graph method (iSAM2) from GTSAM in order to perform localization on the abandoned factory trajectory of TartanAir dataset. In order to perform this, the image sequence is preprocessed using OpenCV and passed onto ORB-SLAM3 to generate an estimated trajectory. The estimated trajectory is optimized in smoothing and mapping using visual odometry collected from the dense optical flow provided by the dataset through GTSAM library to generate final localization trajectory.
+This project focuses on the use of ORB-SLAM3 and incremental smoothing technique (iSAM2) from GTSAM in order to perform localization on the abandoned factory trajectory of TartanAir dataset. To perform this, the images are preprocessed using OpenCV and the sequence is passed onto ORB-SLAM3 to generate an estimated trajectory. To improve robustness and accuracy, the estimated trajectory is passed through smoothing and mapping using visual odometry collected from the dense optical flow, provided by the dataset, through the GTSAM library to generate final localization trajectory.
+
+Please find our introduction video [here]([https://www.youtube.com/watch?v=nWXb3qt6gEo](https://www.youtube.com/watch?v=JXXVHaLAXbg))
 
 ### Overview
 
