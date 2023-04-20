@@ -9,10 +9,8 @@ This is the repository for WN23 ROB 530 Team 10's Final Project on 'Localization
     - [Overview](#overview)
     - [Results](#results)
   - [Dependencies](#dependencies)
-  - [Install](#install)
   - [Dataset Preparation](#dataset-preparation)
   - [Usage](#usage)
-  - [Authors](#authors)
   - [Citation](#citation)
   
 ## Background
@@ -76,14 +74,49 @@ In order to perform 3D trajectory optimization, the following requirements need 
 - OpenCV (Download and install instructions [here](http://opencv.org/))
 - GTSAM (Download and install instructions [here](https://github.com/borglab/gtsam))
 
-### For Data Download
+## Data Preparation
 
 In order to extract the abandoned factory dataset from TartanAir, the following requirements need to be installed.
 
 - Azure Storage Blob package
 - Numpy package
 
+The dataset can be downloaded using the link [here](https://cmu.box.com/s/5ycmyx1q3vumesl0bozfze1a54ejwgmq) or through the provided Python files in [TartanAir Tools](./tartanair_tools) folder.
 
+## Usage
 
+To generate the estimated trajectory, pass the stereo images as input to the ORB-SLAM3 for which more instructions can be found in the [ORB-SLAM3](./ORB_SLAM3) GitHub page.
+
+In order to visualize the attempts for graph-optimization using different methods for visual odometry using optical flow data and depth maps, see the Jupyter Notebook file [here](./OpticalFlow_GTSAM/OF_GTSAM.ipynb)
+
+The different attempts for visual odometry can be seen in the [Estimate Camera Motion](./Estimate_Camera_Motion) which finds the relative motion of the camera with the trajectory of dataset.
+
+## Citation
+
+@article{tartanair2020iros,
+  title =   {TartanAir: A Dataset to Push the Limits of Visual SLAM},
+  author =  {Wang, Wenshan and Zhu, Delong and Wang, Xiangwei and Hu, Yaoyu and Qiu, Yuheng and Wang, Chen and Hu, Yafei and Kapoor, Ashish and Scherer, Sebastian},
+  booktitle = {2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year =    {2020}
+}
+
+@article{ORBSLAM3_TRO,
+      title={{ORB-SLAM3}: An Accurate Open-Source Library for Visual, Visual-Inertial 
+               and Multi-Map {SLAM}},
+      author={Campos, Carlos AND Elvira, Richard AND G\´omez, Juan J. AND Montiel, 
+              Jos\'e M. M. AND Tard\'os, Juan D.},
+      journal={IEEE Transactions on Robotics}, 
+      volume={37},
+      number={6},
+      pages={1874-1890},
+      year={2021}
+     }
+
+@article{VisualOdomOpt,
+      title={Leveraging Deep Learning for Visual Odometry Using Optical Flow},
+      author={Pandey, Tejas AND Pena, Dexmont AND Byrne,Jonathan AND Moloney, David},
+      journal={Sensors (Basel)}, 
+      year={2021}
+     }
 
 
