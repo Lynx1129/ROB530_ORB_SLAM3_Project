@@ -12,6 +12,7 @@ This is the repository for WN23 ROB 530 Team 10's Final Project on 'Localization
   - [Dataset Preparation](#dataset-preparation)
   - [Usage](#usage)
   - [Citation](#citation)
+  - [Authors](#authors)
   
 ## Background
 
@@ -118,5 +119,8 @@ The different attempts for visual odometry can be seen in the [Estimate Camera M
       journal={Sensors (Basel)}, 
       year={2021}
      }
+
+## Authors
+Tong Chen, Yuqi Wang, Siyuan Yin, Aravind Krishnakumar, Haodong Jia
 
 
