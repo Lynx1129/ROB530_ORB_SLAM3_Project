@@ -74,7 +74,7 @@ In order to perform 3D trajectory optimization, the following requirements need 
 - OpenCV (Download and install instructions [here](http://opencv.org/))
 - GTSAM (Download and install instructions [here](https://github.com/borglab/gtsam))
 
-## Data Preparation
+## Dataset Preparation
 
 In order to extract the abandoned factory dataset from TartanAir, the following requirements need to be installed.
 
