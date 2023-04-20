@@ -86,7 +86,7 @@ The dataset can be downloaded using the link [here](https://cmu.box.com/s/5ycmyx
 
 ## Usage
 
-To generate the estimated trajectory, pass the stereo images as input to the ORB-SLAM3 for which more instructions can be found in the [ORB-SLAM3](./ORB_SLAM3) GitHub page.
+To generate the estimated trajectory, pass the stereo images as input to the ORB-SLAM3 for which more instructions can be found in the [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3/tree/4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4) GitHub page.
 
 In order to visualize the attempts for graph-optimization using different methods for visual odometry using optical flow data and depth maps, see the Jupyter Notebook file [here](./OpticalFlow_GTSAM/OF_GTSAM.ipynb)
 
