@@ -52,5 +52,5 @@ The estimated trajectory computed through ORB-SLAM3 is possible through the ORB 
 
 ![RANSAC-based Outlier Rejection](./images/Ransac.png)
 
-####Feature Matching through the TartanAir Dataset
+#### Feature Matching through the TartanAir Dataset
 ![](./images/feature_matching.gif)
